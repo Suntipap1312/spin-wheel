@@ -123,7 +123,6 @@ export default {
 
       const winner = await this.handelWin(spinOffset);
 
-      console.log("winner", winner);
       setTimeout(this.showResult, 4500);
     },
     async showResult() {
